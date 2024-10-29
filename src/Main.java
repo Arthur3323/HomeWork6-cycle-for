@@ -56,10 +56,11 @@ public class Main {
 
         // Задача 9
         System.out.println("\nTask 9:");
+        int total = 0;
         for (int i = 1; i <= 12; i++) {
-            savings = savings + savings / 100;
-            savingsEveryMonth = savings * i;
-            System.out.println("Месяц " + i + ", сумма накоплений равна " + savingsEveryMonth + " рублей");
+            total = total + total / 100;
+            total = total + savings ;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
         }
         // Задача 10
         System.out.println("\nTask 10:");
